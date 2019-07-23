@@ -25,10 +25,7 @@ def reduce(array, b=nil)
   
   while i < array.length
 
-    if array[i] == false
-      new_value = false
-    else
-      new_value = true
+   new_value = 
     
   end 
   
