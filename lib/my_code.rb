@@ -20,6 +20,7 @@ end
   
 def reduce(array, b=nil)
   
+  if b 
   new_value = 0
   i = 0
   
