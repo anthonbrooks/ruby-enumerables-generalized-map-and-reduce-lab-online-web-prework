@@ -25,6 +25,8 @@ def reduce(array, b=nil)
     i = 0
   else
     new_value = b[0]
+    i = 1
+  end
   
   while i < array.length
   
