@@ -30,6 +30,6 @@ def reduce(array, b=nil)
   i += 1
   end
   
-  return new_value
+  new_value
 
 end
