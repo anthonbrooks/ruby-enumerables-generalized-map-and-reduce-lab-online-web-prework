@@ -24,8 +24,8 @@ def reduce(array, b=nil)
   i = 0
   
   while i < array.length
-
-   new_value = yield(new_value, array[i])
+  
+  new_value = yield(new_value, array[i])
   
   i += 1
   end
