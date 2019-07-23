@@ -28,9 +28,7 @@ def reduce(array, b=nil)
    new_value = yield(new_value, array[i])
   
   i += 1
-end
-  
-end 
+  end
   
   return new_value
 
