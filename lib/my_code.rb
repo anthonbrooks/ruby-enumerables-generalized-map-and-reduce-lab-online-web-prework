@@ -24,7 +24,7 @@ def reduce(array, b=nil)
     new_value = b
     i = 0
   else
-    new_value = b[0]
+    new_value = array[0]
     i = 1
   end
   
