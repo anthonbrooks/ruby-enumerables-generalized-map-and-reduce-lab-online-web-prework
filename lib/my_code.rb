@@ -23,6 +23,7 @@ def reduce(array, b=nil)
   if b 
   new_value = b
   i = 0
+  else
   
   while i < array.length
   
