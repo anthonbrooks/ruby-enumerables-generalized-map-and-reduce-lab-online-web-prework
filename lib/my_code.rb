@@ -18,7 +18,7 @@ def map (array)
 end
 
   
-def reduce(array)
+def reduce(array, b)
   
   new_value = 0
   i = 0
